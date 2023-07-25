@@ -1,6 +1,6 @@
-package com.wdcals.wdCommunity.jh.repository;
+package com.wdcals.wdcommunity.jh.repository;
 
-import com.wdcals.wdCommunity.entity.Board;
+import com.wdcals.wdcommunity.entity.Board;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BoardRepository extends JpaRepository<Board, Long> {

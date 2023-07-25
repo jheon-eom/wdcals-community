@@ -1,4 +1,4 @@
-package com.wdcals.wdCommunity.entity;
+package com.wdcals.wdcommunity.entity;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
