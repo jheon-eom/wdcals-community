@@ -7,7 +7,6 @@ import com.wdcals.wdcommunity.jh.dto.SaveBoardRequestDto;
 import com.wdcals.wdcommunity.jh.exception.BoardNotFoundException;
 import com.wdcals.wdcommunity.jh.repository.BoardRepository;
 import com.wdcals.wdcommunity.jh.repository.MemberRepository;
-import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,7 +1,5 @@
 package com.wdcals.wdcommunity.jh.dto;
 
-import com.wdcals.wdcommunity.entity.Member;
-
 import java.util.Objects;
 
 public record SaveBoardRequestDto(Long memberId, String title, String content) {
