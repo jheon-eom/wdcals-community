@@ -20,4 +20,11 @@ public class BoardJsController {
 
         return ResponseEntity.ok(boardJsService.write(board));
     }
+
+    /*@DeleteMapping("/board/{id}")
+    public String boardDelete(@PathVariable("id") long id){
+        boardJsService.delete(id);
+
+        return "ok";
+    }*/
 }

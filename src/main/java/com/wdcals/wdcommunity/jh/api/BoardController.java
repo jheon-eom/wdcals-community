@@ -1,6 +1,6 @@
 package com.wdcals.wdcommunity.jh.api;
 
-import com.wdcals.wdcommunity.jh.dto.SaveBoardRequestDto;
+//import com.wdcals.wdcommunity.jh.dto.SaveBoardRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BoardController {
 
-    @PostMapping("/board")
+   /* @PostMapping("/board")
     public ResponseEntity<?> saveBoard(@RequestBody SaveBoardRequestDto saveBoardRequestDto) {
 
         return null;
-    }
+    }*/
 }

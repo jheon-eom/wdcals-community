@@ -5,6 +5,8 @@ import com.wdcals.wdcommunity.js.repository.BoardJsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
 @Service
 public class BoardJsService {
 
@@ -14,4 +16,12 @@ public class BoardJsService {
     public Board write(Board board){
         return boardRepository.save(board);
     }
+
+    /*public void delete(long id){
+        Optional<Board> optBoard = boardRepository.findById(id);
+        if(optBoard.isPresent()){
+            Board board = optBoard.get();
+            board.setDeleted(true);
+        }
+    }*/
 }
