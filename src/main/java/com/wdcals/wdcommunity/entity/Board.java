@@ -44,4 +44,7 @@ public class Board extends BaseEntity {
     /**
      * 비즈니스 로직
      */
+    public void delete() {
+        this.isDeleted = true;
+    }
 }
